@@ -8,8 +8,6 @@ import static praktikum.IngredientType.*;
 
 public class IngredientTest {
     Ingredient ingredient = new Ingredient(SAUCE, "hot sauce", 100);
-    @Mock
-    IngredientType ingredientType;
 
     @Test
     public void getIngredientTypeTest() {
